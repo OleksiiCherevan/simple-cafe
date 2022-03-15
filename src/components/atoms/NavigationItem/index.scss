@@ -1,0 +1,14 @@
+@import './../../../styles/color.scss';
+
+.navigation-item {
+    display: flex;
+    gap: 30px;
+    font-size: 0.875rem;
+    color: $secondary;
+    cursor: pointer;
+
+    &:hover {
+        color: $primary;
+    }
+}
+
