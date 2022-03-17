@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/styles.scss";
+import "./scss/styles.scss";
 import "./index.css";
 import ReactDOM from "react-dom";
 import Home from "./components/pages/Home";
@@ -8,6 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
     <React.StrictMode>
         <div className="app">
+            <div className="app-background"></div>
             <Home />
         </div>
     </React.StrictMode>,

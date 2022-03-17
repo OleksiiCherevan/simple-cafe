@@ -5,5 +5,16 @@
 
 .app {
   color: #fff;
+}
+
+.app-background {
+  position:fixed;
+  left: 0;
+  top: 0;
+
+  height: 100%;
+  width: 100%;
+
   background-color: #191919;
+  z-index: -1000;
 }
