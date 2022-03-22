@@ -10,8 +10,15 @@
 
     &__hot-menu {
         margin-bottom: 60px;
+        display: flex;
+        justify-content: center;
     }
 
     &__categories {
+        padding-bottom: 61px;
+        display: inline-block;
+
+        width: 100%;
+        max-width: 853px;
     }
 }
