@@ -2,8 +2,7 @@ import './index.scss'
 
 import React from 'react'
 
-import Header2Underline from '../../00-atoms/01-headers/Header2Underline'
-import CardReview from '../../00-atoms/04-cards/CardReview'
+import CardReview from '../../../00-atoms/04-cards/CardReview'
 
 const Reviews = () => {
   return (

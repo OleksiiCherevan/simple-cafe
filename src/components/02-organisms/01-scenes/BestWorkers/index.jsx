@@ -3,11 +3,12 @@ import './index.scss'
 import React from 'react'
 
 
-import user1 from './../../../assets/img/user1.jpg'
-import user2 from './../../../assets/img/user2.jpg'
-import user3 from './../../../assets/img/user3.jpg'
+import user1 from './../../../../assets/img/user1.jpg'
+import user2 from './../../../../assets/img/user2.jpg'
+import user3 from './../../../../assets/img/user3.jpg'
 
-import BarBestWorkers from '../01-bars/BarBestWorkers'
+import BarBestWorkers from '../../../01-molecules/01-bars/BarBestWorkers'
+
 
 const WORKERS = [
     {

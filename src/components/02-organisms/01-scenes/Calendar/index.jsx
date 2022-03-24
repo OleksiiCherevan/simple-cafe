@@ -2,11 +2,9 @@ import "./index.scss";
 
 import React from "react";
 
-import SALAD from "./../../../assets/img/salad.png";
-import CALENDAR from './../../../assets/img/calendar.png'
-import Header2Underline from "../../00-atoms/01-headers/Header2Underline";
-import CalendarEvent from "../../00-atoms/04-cards/CardCalendarEvent";
-import CalendarEvents from "../../01-molecules/01-bars/BarCalendarEvents";
+import SALAD from "./../../../../assets/img/salad.png";
+import CALENDAR from './../../../../assets/img/calendar.png'
+import CalendarEvents from "../../../01-molecules/01-bars/BarCalendarEvents";
 
 const EVENTS = [
     {

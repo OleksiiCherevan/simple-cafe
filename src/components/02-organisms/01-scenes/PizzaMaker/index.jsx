@@ -3,10 +3,10 @@ import "./index.scss";
 import React from "react";
 
 
-import PIZZA from "./../../../assets/img/pizza.png";
-import ButtonRound from "../../00-atoms/00-buttons/ButtonRound";
-import Header2 from "../../00-atoms/01-headers/Header2";
-import Button from "../../00-atoms/00-buttons/Button";
+import PIZZA from "./../../../../assets/img/pizza.png";
+import ButtonRound from "../../../00-atoms/00-buttons/ButtonRound";
+import Header2 from "../../../00-atoms/01-headers/Header2";
+import Button from "../../../00-atoms/00-buttons/Button";
 
 const Maker = () => {
     return (

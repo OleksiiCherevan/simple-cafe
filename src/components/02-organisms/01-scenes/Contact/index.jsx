@@ -1,11 +1,11 @@
 import "./index.scss";
 
 import React from "react";
-import Header2Underline from "../../00-atoms/01-headers/Header2Underline";
-import LabelImage from "../../00-atoms/05-labels/LabelContactImage";
-import TextField from "../../00-atoms/02-fields/TextField";
-import TextArea from "../../00-atoms/02-fields/TextArea";
-import Button from "../../00-atoms/00-buttons/Button";
+import LabelImage from "../../../00-atoms/05-labels/LabelContactImage";
+import TextField from "../../../00-atoms/02-fields/TextField";
+import TextArea from "../../../00-atoms/02-fields/TextArea";
+import Button from "../../../00-atoms/00-buttons/Button";
+
 
 
 const CONTACTS = [

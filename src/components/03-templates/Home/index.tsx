@@ -1,9 +1,9 @@
 import React from "react";
 import "./index.scss";
 
-import Header from "../../02-organisms/Header";
+import Header from "../../02-organisms/01-scenes/Header";
 import HomeBody from "../../02-organisms/HomeBody";
-import Footer from "../../02-organisms/Footer";
+import Footer from "../../02-organisms/01-scenes/Footer";
 
 function Home() {
     return (

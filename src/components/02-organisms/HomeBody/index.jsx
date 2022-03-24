@@ -2,15 +2,14 @@ import "./index.scss";
 
 import Header1 from "../../00-atoms/01-headers/Header1";
 import BarChunks from "../../01-molecules/01-bars/BarChunks";
-import HotMenu from "../../01-molecules/HotMenu";
+import HotMenu from "../01-scenes/HotMenu";
 import Categories from "../../01-molecules/01-bars/BarCategories";
-import Maker from "../../01-molecules/PizzaMaker";
-import Calendar from "../Calendar";
-import BestWorkers from "../../01-molecules/BestWorkers";
-import PopularDishes from "../PopularDishes";
-import Reviews from "../Reviews";
-import Contact from "../Contact";
-import Footer from "../Footer";
+import Maker from "../01-scenes/PizzaMaker";
+import Calendar from "../01-scenes/Calendar";
+import BestWorkers from "../01-scenes/BestWorkers";
+import PopularDishes from "../01-scenes/PopularDishes";
+import Reviews from "../01-scenes/Reviews";
+import Contact from "../01-scenes/Contact";
 import Header2Underline from "../../00-atoms/01-headers/Header2Underline";
 
 const HOT_MENU = {
