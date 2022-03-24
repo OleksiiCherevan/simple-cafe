@@ -57,13 +57,12 @@ const Maker = () => {
                 <div className="maker__left-side"></div>
                 <div className="maker__right-side">
                     <div className="maker__header">
-                        <Header2 text={"СОБЕРИТЕ СВОЮ ПИЦЦУ"}></Header2>
+                        <Header2 text={"СТВОРІТЬ СВОЮ ПІЦУ"}></Header2>
                     </div>
                     <div className="maker__description">
-                        Мы приготовим для Вас пиццу с вашими любимыми
-                        игридиентами
+                        Ми приготуємо для вас піцу з вашими улюбленими інгрідієнтами
                     </div>
-                    <Button text="Заказать"></Button>
+                    <Button text="Замовити"></Button>
                 </div>
             </div>
             <div className="maker__right-arrow">

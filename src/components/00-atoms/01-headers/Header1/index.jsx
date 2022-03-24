@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.scss'
 
-const title = 'Доставка свежей и горячей еды в течение  40 минут'
+const title = 'Доставка свіжої та гарячої їжі протягом 40 хвилин'
 
 const Header1 = (props) => {
   const {text = title} = props

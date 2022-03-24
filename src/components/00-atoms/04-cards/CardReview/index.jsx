@@ -5,7 +5,7 @@ import React from "react";
 const CardReview = (props) => {
     const {
         customer = "@DennisFerguson",
-        date = "24 Июн 2019 16:20",
+        date = "24 Бер 2019 16:20",
         mark = (
             <svg
                 width="81"

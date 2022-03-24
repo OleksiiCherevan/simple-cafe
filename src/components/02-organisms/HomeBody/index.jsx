@@ -13,7 +13,7 @@ import Contact from "../01-scenes/Contact";
 import Header2Underline from "../../00-atoms/01-headers/Header2Underline";
 
 const HOT_MENU = {
-    text: "БІЗНЕС-ЛАНЧ",
+    text: "Бізнес-ланч",
     orderBy: "замовлення до 15:00",
     list: [
         {
@@ -55,24 +55,24 @@ const HomeBody = () => {
                 <Maker></Maker>
             </div>
             <div className="home-body__calendar">
-                <Header2Underline text="Календарь мероприятий"></Header2Underline>
+                <Header2Underline text="Календар подій"></Header2Underline>
                 <Calendar></Calendar>
             </div>
             <div className="home-body__best-workers">
-                <Header2Underline text="Лучшие повара этого месяца"></Header2Underline>
+                <Header2Underline text="Кращі кухарі цього місяця"></Header2Underline>
                 <BestWorkers></BestWorkers>
             </div>
             <div className="home-body__popular-dishes">
-                <Header2Underline text="Популярные десерты"></Header2Underline>
+                <Header2Underline text="Популярні десерти"></Header2Underline>
                 <PopularDishes></PopularDishes>
             </div>
             <div className="home-body__reviews">
-                <Header2Underline text="Отзывы"></Header2Underline>
+                <Header2Underline text="Відгуки"></Header2Underline>
 
                 <Reviews></Reviews>
             </div>
             <div className="home-body__contact">
-                <Header2Underline text="Контакты"></Header2Underline>
+                <Header2Underline text="Зворотній зв'язок"></Header2Underline>
 
                 <Contact></Contact>
             </div>
