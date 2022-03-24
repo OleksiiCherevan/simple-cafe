@@ -7,7 +7,7 @@ import BarSocial from "../../../01-molecules/01-bars/BarSocial";
 
 const ITEMS = [
     {
-        text: "O нас",
+        text: "Про нас",
         url: "",
     },
     {
@@ -27,7 +27,7 @@ const ITEMS = [
         url: "",
     },
     {
-        text: "Вакансии",
+        text: "Вакансії",
         url: "",
     },
 ];

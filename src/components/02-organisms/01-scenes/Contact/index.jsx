@@ -122,10 +122,10 @@ const Contact = () => {
                 </div>
                 <div className="contact-fields">
                     <div className="contact-small-fields">
-                        <TextField text="Ваше имя"></TextField>
+                        <TextField text="Ваше ім'я"></TextField>
                         <TextField text="Номер телефона"></TextField>
                     </div>
-                    <TextArea text="Сообщение"></TextArea>
+                    <TextArea text="Повідомлення"></TextArea>
                     <Button></Button>
                 </div>
             </div>

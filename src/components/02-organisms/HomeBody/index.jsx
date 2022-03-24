@@ -54,10 +54,10 @@ const HomeBody = () => {
             <div className="home-body__pizza-maker">
                 <Maker></Maker>
             </div>
-            <div className="home-body__calendar">
+            {/* <div className="home-body__calendar">
                 <Header2Underline text="Календар подій"></Header2Underline>
                 <Calendar></Calendar>
-            </div>
+            </div> */}
             <div className="home-body__best-workers">
                 <Header2Underline text="Кращі кухарі цього місяця"></Header2Underline>
                 <BestWorkers></BestWorkers>

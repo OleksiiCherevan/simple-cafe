@@ -12,13 +12,13 @@ import BarBestWorkers from '../../../01-molecules/01-bars/BarBestWorkers'
 
 const WORKERS = [
     {
-        user: 'Григорий Ковалёв',
+        user: 'Григорій Ковальов',
         position: 'Шеф холодного цеха',
         image: user1
     },
     {
-        user: 'Наталья Орехова',
-        position: 'Су-шеф горячего цеха',
+        user: 'Наталья Едуардовна',
+        position: 'Су-шеф гарячого цеха',
         image: user2
     },
     {
