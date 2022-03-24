@@ -5,7 +5,7 @@ import "./index.css";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
 
-import Home from "./components/05-pages/Home";
+import Home from "./components/04-pages/Home";
 
 ReactDOM.render(
     <React.StrictMode>

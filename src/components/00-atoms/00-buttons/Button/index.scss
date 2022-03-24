@@ -1,0 +1,25 @@
+.button {
+    cursor: pointer;
+
+    height: 32px;
+    width: 180px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+    /* Primary */
+
+    color: #34c759;
+
+    border: 1px solid #34c759;
+    border-radius: 20px;
+}
