@@ -11,7 +11,7 @@ const TextArea = (props) => {
                 className="text-area__text"
                 type="text"
                 prompt={prompt}
-                placeHolder={text}
+                placeholder={text}
                 onChange={(e) => onChange(e)}
             ></textarea>
          </div>

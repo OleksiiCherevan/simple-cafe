@@ -1,16 +1,21 @@
-import React from 'react'
-import './index.scss'
+import React from "react";
+import style from "./index.module.css";
 
 const ButtonRound = (props) => {
-  const {image, url} = props;
+    const { children = "o", color, url, onClick } = props;
 
-  return (
-    <a className='button-round' href={url}>
-      <div className='button-round__image'>
-        {image}
-      </div>
-    </a>
-  )
-}
+    return (
+        <a
+            className={style["button"]}
+            href={url}
+            onClick={(event) => {
+                onClick(event);
+            }}
+            style={{ borderColor: color }}
+        >
+            <div className={style["image"]}>{children}</div>
+        </a>
+    );
+};
 
-export default ButtonRound
+export default ButtonRound;

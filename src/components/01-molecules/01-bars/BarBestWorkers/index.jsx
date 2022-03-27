@@ -7,7 +7,7 @@ const BarBestWorkers = (props) => {
     const {workers} = props
   return (
     <div className='bar-best-workers'>
-            {workers.map(worker => <UserCard {...worker}></UserCard>)}  
+            {workers.map(worker => <UserCard key={worker.user} {...worker}></UserCard>)}  
        </div>
   )
 }

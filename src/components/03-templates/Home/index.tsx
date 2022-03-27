@@ -2,7 +2,7 @@ import React from "react";
 import "./index.scss";
 
 import Header from "../../02-organisms/01-scenes/Header";
-import HomeBody from "../../02-organisms/HomeBody";
+import HomeBody from "../../02-organisms/02-screens/HomeBody";
 import Footer from "../../02-organisms/01-scenes/Footer";
 
 function Home() {

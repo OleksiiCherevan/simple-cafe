@@ -74,8 +74,8 @@ const BarSocial = (props) => {
 
     return (
         <div className="bar-social">
-            {items.map((item) => (
-                <a className="bar-social__item" href={item.url}>
+            {items.map((item, index) => (
+                <a key={index} className="bar-social__item" href={item.url}>
                     {item.image}
                 </a>
             ))}

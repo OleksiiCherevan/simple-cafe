@@ -10,7 +10,8 @@ const TextField = (props) => {
             <input
                 className="text-field__text"
                 type="text"
-                placeHolder={text}
+                placeholder={text}
+                defaultValue=''
                 prompt={prompt}
                 onChange={(e) => onChange(e)}
             ></input>

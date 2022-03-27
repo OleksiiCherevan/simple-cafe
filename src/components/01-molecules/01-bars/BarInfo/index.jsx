@@ -7,8 +7,8 @@ const BarInfo = (props) => {
 
     return (
         <div className="bar-info">
-            {items.map((item) => (
-                <a className="bar-info__item" href={item.url}>{item.text}</a>
+            {items.map((item, index) => (
+                <a key={item.text + index} className="bar-info__item" href={item.url}>{item.text}</a>
             ))}
         </div>
     );

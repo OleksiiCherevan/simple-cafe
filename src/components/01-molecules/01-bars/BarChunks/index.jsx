@@ -112,8 +112,8 @@ const BarChunks = (props) => {
     const {items = CHUNKS} = props
     return (
         <div className="bar-chunks">
-            {items.map((chunk) => (
-                <ChunkCard key={chunk.text} {...chunk}></ChunkCard>
+            {items.map((chunk, index) => (
+                <ChunkCard key={chunk.text + index} {...chunk}></ChunkCard>
             ))}
         </div>
     );
