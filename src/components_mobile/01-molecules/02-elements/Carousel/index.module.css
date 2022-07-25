@@ -1,0 +1,62 @@
+.background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(269.9deg, rgba(0, 0, 0, 0.74) 30.89%, rgba(0, 0, 0, 0.03) 90.93%);
+}
+
+.dots {
+    padding-bottom: 50px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.arrow-left {
+    cursor: pointer;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.arrow-right {
+    cursor: pointer;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    height: 100%;
+}
+
+.top {
+    height: 100%;
+    display: flex;
+}
+
+.bottom {
+    height: 30px;
+}
+
+.side-left {
+    flex: 5;
+}
+
+.side-right {
+    flex: 5;
+}

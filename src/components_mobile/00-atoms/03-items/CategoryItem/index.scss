@@ -1,0 +1,30 @@
+
+@import "./../../../../scss/color.scss";
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    
+    &__image {
+        height: 120px;
+        width: 120px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        border-radius: 50%;
+        border: solid $primary 1px;
+    }
+
+    &__label {
+        font-family: "Alegreya";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+    }
+}

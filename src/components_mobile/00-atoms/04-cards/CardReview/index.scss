@@ -1,0 +1,75 @@
+.card-review {
+    min-width: 280px;
+    max-width: 340px;
+    width: 80%;
+
+    padding: 20px 20px 20px 20px;
+
+    background: #252525;
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__customer {
+        font-family: "Alegreya";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        /* identical to box height */
+
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+    &__date {
+        font-family: "Alegreya";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+
+        color: #737373;
+    }
+
+    &-mark {
+        margin-top: 12px;
+    }
+
+    &__message {
+        margin-top: 12px;
+        padding-bottom: 20px;
+
+        height: 100px;
+        width: 100%;
+
+        resize: none;
+        overflow-y: scroll;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+
+        background-color: #252525;
+        border: none;
+        color: rgba(255, 255, 255, 0.75);
+
+        &::-webkit-scrollbar {
+            width: 4px;        
+        }
+        
+        &::-webkit-scrollbar-track { 
+            border-radius: 100px;
+            background: #252525;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+            border-radius: 100px;
+            background: #303030;
+        }
+        
+    }
+}
